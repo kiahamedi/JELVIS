@@ -1,6 +1,6 @@
 # JELVIS born of J.A.R.V.I.S - Just A Rather Very Intelligent System
 <br>
-[Alt text](https://github.com/kiahamedi/JELVIS/blob/master/wallpapers/jelviis.png "JELVIS")
+![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "JELVIS")
 
 <br>
 ##### This project currently uses Python version 2.7
