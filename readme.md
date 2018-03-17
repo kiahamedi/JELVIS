@@ -1,5 +1,6 @@
 # JELVIS born of J.A.R.V.I.S - Just A Rather Very Intelligent System
 <br>
+![Alt text](https://github.com/kiahamedi/JELVIS/blob/master/wallpapers/jelviis.png "JELVIS")
 ##### This project currently uses Python version 2.7
 
 This project can be an audio assistant on your operating system and perform the tasks that you are considering for it.
@@ -116,3 +117,4 @@ for create icon JELVIS in desktop and your applications, you must copy jelvis.de
 to exit JELVIS in DesjtopShortcut without terminal output , you must first close the graphic windows and next tell jelvis goodbye
 
 And finally I thank Nihal Singh for the original code
+
