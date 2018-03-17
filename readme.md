@@ -5,6 +5,8 @@
 
 ![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "Optional title")
 
+[linkname](https://www.youtube.com/watch?v=33k3GG6Gszo)
+
 This project can be an audio assistant on your operating system and perform the tasks that you are considering for it.
 You can use different scripts to use in the language interface
 
@@ -14,11 +16,9 @@ Part of the conversations you can do with JELVIS:
     **Talk to JELVIS :** hello<br>
     **JELVIS :** Well, hello
 
-    **Talk to JELVIS :** Who is iron man?<br>
-    **JELVIS :** Iron man is the one who created me.
+    **Talk to JELVIS :** baby?<br>
+    **JELVIS :** Sir.
 
-    **Talk to JELVIS :** What does JELVIS stand for?<br>
-    **JELVIS :** JELVIS stands for Just A Rather Very Intelligent System
 
 JELVIS is not able to learn, and you can increase the sentences with JELVIS (remember JELVIS)
 To do this, you can open the file and add your own conversations and send us
