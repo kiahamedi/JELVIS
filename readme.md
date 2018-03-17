@@ -1,10 +1,9 @@
 # JELVIS born of J.A.R.V.I.S - Just A Rather Very Intelligent System
 <br>
-![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "JELVIS")
 
-<br>
 ##### This project currently uses Python version 2.7
 
+![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "Optional title")
 This project can be an audio assistant on your operating system and perform the tasks that you are considering for it.
 You can use different scripts to use in the language interface
 
