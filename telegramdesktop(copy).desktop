@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=InstantMessaging;Qt;
+Comment=JELVIS DESKTOP
+Exec=/home/kia/BashScripts/runjelvis.sh
+Icon=/home/kia/J.E.L.V.I.S/jelvis.png
+MimeType=x-scheme-handler/tg;
+Name=jelvis.desktop
+StartupWMClass=JELVIS
+Terminal=false
+TryExec=/home/kia/BashScripts/runjelvis.sh
+Type=Application
+Version=1.0
+X-Desktop-File-Install-Version=0.23
