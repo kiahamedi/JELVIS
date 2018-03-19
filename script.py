@@ -76,21 +76,17 @@ else:
 # kernel now ready for use
 
 def orgin():
-    count = 0 #For Fix bug stop jelvis (For NOW :))
     while True:
-        while True:
-            count+=1
-            if mode == "voice":
-                response = listen()
-            else:
-                response = raw_input("Talk to JELVIS : ")
-            if response.lower().replace(" ","") in terminate:
-                break
-            jarvis_speech = kernel.respond(response)
-            print "JELVIS: " + jarvis_speech
-            offline_speak(jarvis_speech)
-            if count == 1000:
-                break
+        if mode == "voice":
+            response = listen()
+        else:
+            response = raw_input("Talk to JELVIS : ")
+        if response.lower().replace(" ","") in terminate:
+            break
+        jarvis_speech = kernel.respond(response)
+        print "JELVIS: " + jarvis_speech
+        offline_speak(jarvis_speech)
+
 
 
 t = threading.Thread(name='orgin', target=orgin)
