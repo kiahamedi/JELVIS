@@ -96,15 +96,17 @@ To do this, you can open the file and add your own conversations and send us
 
 You can run `pip install -r requirements.txt` to install them all.
 
+for Graphic install PyQT4:
 
+`sudo apt install python-qt4`
+`sudo pacman -S python2-pyqt4`
 
 ## Run:
 
 To run, you can enter the JELVIS path and execute the following commands in text or voice mode
 
-`python script.py text` : for text mode of input
 
-`python script.py voice` : for voice mode of input
+`python script.py voice` : for Graphic mode and voice mode of input
 
 Voice mode may give a series of warnings for numerous reasons, but still might fuction properly.
 
