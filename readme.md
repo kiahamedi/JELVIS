@@ -1,4 +1,4 @@
-# JELVIS born of J.A.R.V.I.S - Just A Rather Very Intelligent System
+# JELVIS - Just A Rather Very Intelligent System
 <br>
 
 ##### This project currently uses Python version 2.7 or 3.5
