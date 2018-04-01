@@ -3,3 +3,5 @@ SpeechRecognition
 pyalsaaudio
 pyttsx3
 gTTS
+pocketsphinx
+urllib3
