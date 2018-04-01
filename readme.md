@@ -1,7 +1,7 @@
 # JELVIS born of J.A.R.V.I.S - Just A Rather Very Intelligent System
 <br>
 
-##### This project currently uses Python version 2.7
+##### This project currently uses Python version 2.7 or 3.5
 
 ![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "Optional title")
 
@@ -103,10 +103,10 @@ for Graphic install PyQT4:
 
 ## Run:
 
-To run, you can enter the JELVIS path and execute the following commands in text or voice mode
+To run, you can enter the JELVIS path and execute the following commands in voice mode
 
 
-`python script.py voice` : for Graphic mode and voice mode of input
+`python script.py` : for Graphic mode and voice mode of input
 
 Voice mode may give a series of warnings for numerous reasons, but still might fuction properly.
 
