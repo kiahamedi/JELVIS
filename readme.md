@@ -119,7 +119,7 @@ To exit and close the program, you must first close the graphic window and then 
 
 for create icon JELVIS in desktop and your applications, you must copy jelvis.desktop in this path: /home/kia/.local/share/applications
 
-to exit JELVIS in DesjtopShortcut without terminal output , you must first close the graphic windows and next tell jelvis goodbye
+to exit JELVIS in DesktopShortcut without terminal output , you must first close the graphic windows and next tell jelvis goodbye
 
 And finally I thank Nihal Singh for the original code
 
