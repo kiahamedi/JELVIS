@@ -100,6 +100,7 @@ for Graphic install PyQT4:
 
 `sudo apt install python-qt4`
 `sudo pacman -S python2-pyqt4`
+`sudo pacman -S python-pyqt4`
 
 ## Run:
 
