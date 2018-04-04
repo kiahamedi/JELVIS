@@ -1,7 +1,7 @@
 # JELVIS - Just A Rather Very Intelligent System
 <br>
 
-##### This project currently uses Python version 2.7 or 3.5
+##### This project currently uses Python version 2.7 or 3.6
 
 ![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "Optional title")
 
