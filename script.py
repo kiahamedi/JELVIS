@@ -70,10 +70,10 @@ def listen():
         #print (r.recognize_google(audio))
         #return  r.recognize_google(audio)
         if internet_on() == True:
-            print r.recognize_google(audio)
+            print (r.recognize_google(audio))
             return  r.recognize_google(audio)
         else:
-            print r.recognize_sphinx(audio)
+            print (r.recognize_sphinx(audio))
             return  r.recognize_sphinx(audio)
 
     except sr.UnknownValueError:
