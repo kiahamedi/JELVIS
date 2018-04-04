@@ -1,8 +1,6 @@
 import aiml
 import os
 import time, sys
-#from gtts import gTTS
-#from pygame import mixer
 import pyttsx3
 import warnings
 import threading
@@ -94,7 +92,6 @@ else:
     #kernel.saveBrain("bot_brain.brn")
 
 # kernel now ready for use
-
 def orgin():
     try:
         while True:
