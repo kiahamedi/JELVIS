@@ -94,7 +94,9 @@ To do this, you can open the file and add your own conversations and send us
 
 ## Requirements:
 
-You can run `pip install -r requirements.txt` to install them all.
+You can run `pip install --upgrade -r requirements.txt` to install them all.</br>
+`sudo apt install python-alsaaudio` </br>
+`sudo apt install python-pocketsphinx` </br>
 
 for Graphic install PyQT4:
 
