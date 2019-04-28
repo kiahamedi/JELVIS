@@ -99,11 +99,13 @@ Debian Base:</br>
 `sudo apt install python-alsaaudio` </br>
 `sudo apt install python-pocketsphinx` </br>
 `sudo apt install python-pyaudio` </br>
+`sudo apt install espeak` </br>
 </br>
 Arch:</br>
 `sudo pacman -S python-pyaudio` </br>
 `sudo pacman -S python-pocketsphinx` </br>
 `sudo pacman -S python-alsaaudio` </br>
+`sudo pacman -S espeak` </br>
 
 
 for Graphic install PyQT4:
