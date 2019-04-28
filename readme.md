@@ -100,9 +100,12 @@ You can run `pip install --upgrade -r requirements.txt` to install them all.</br
 
 for Graphic install PyQT4:
 
-`sudo apt install python-qt4`
-`sudo pacman -S python2-pyqt4`
-`sudo pacman -S python-pyqt4`
+Debian Base:</br>
+`sudo apt install python-qt4`</br>
+</br>
+Arch:</br>
+`sudo pacman -S python2-pyqt4`</br>
+`sudo pacman -S python-pyqt4`</br>
 
 ## Run:
 
