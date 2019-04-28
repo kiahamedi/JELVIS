@@ -94,13 +94,28 @@ To do this, you can open the file and add your own conversations and send us
 
 ## Requirements:
 
-You can run `pip install -r requirements.txt` to install them all.
+You can run `pip install --upgrade -r requirements.txt` to install them all.</br>
+Debian Base:</br>
+`sudo apt install python-alsaaudio` </br>
+`sudo apt install python-pocketsphinx` </br>
+`sudo apt install python-pyaudio` </br>
+`sudo apt install espeak` </br>
+</br>
+Arch:</br>
+`sudo pacman -S python-pyaudio` </br>
+`sudo pacman -S python-pocketsphinx` </br>
+`sudo pacman -S python-alsaaudio` </br>
+`sudo pacman -S espeak` </br>
+
 
 for Graphic install PyQT4:
 
-`sudo apt install python-qt4`
-`sudo pacman -S python2-pyqt4`
-`sudo pacman -S python-pyqt4`
+Debian Base:</br>
+`sudo apt install python-qt4`</br>
+</br>
+Arch:</br>
+`sudo pacman -S python2-pyqt4`</br>
+`sudo pacman -S python-pyqt4`</br>
 
 ## Run:
 
