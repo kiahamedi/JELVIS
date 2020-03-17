@@ -1,13 +1,13 @@
 [Desktop Entry]
 Categories=InstantMessaging;Qt;
-Comment=JELVIS DESKTOP
-Exec=/home/kia/BashScripts/runjelvis.sh
-Icon=/home/kia/J.E.L.V.I.S/jelvis.png
+Comment=JELVIS
+Exec=python /home/$USER/JELVIS/script.py
+Icon=/home/$USER/JELVIS/jelvis.png
 MimeType=x-scheme-handler/tg;
 Name=jelvis.desktop
 StartupWMClass=JELVIS
 Terminal=false
-TryExec=/home/kia/BashScripts/runjelvis.sh
+TryExec=python /home/$USER/JELVIS/script.py
 Type=Application
 Version=1.0
 X-Desktop-File-Install-Version=0.23
