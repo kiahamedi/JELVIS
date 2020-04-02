@@ -1,7 +1,9 @@
-# JELVIS - Just A Rather Very Intelligent System
+# JELVIS - Just A Rather Very Intelligent System 
+<br>
+And now support mozilla deepspeech open source Speech-To-Text engine
 <br>
 
-##### This project currently uses Python version 2.7 or 3.6
+##### This project currently uses Python version 3.6
 
 ![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "Optional title")
 
@@ -92,9 +94,22 @@ To do this, you can open the file and add your own conversations and send us
 
     closes the python script.
 
+```
+# Clone this repository
+git clone https://github.com/herotux/JELVIS.git
+
+# cd the project directory 
+cd JELVIS
+
+# Download pre-trained English model and extract
+curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.6.1/deepspeech-0.6.1-models.tar.gz
+tar xvf deepspeech-0.6.1-models.tar.gz
+mv deepspeech-0.6.1-models/* .
+```
+
 ## Requirements:
 
-You can run `pip install --upgrade -r requirements.txt` to install them all.</br>
+You can run `pip3 install --upgrade -r requirements.txt` to install them all.</br>
 Debian Base:</br>
 `sudo apt install python-alsaaudio` </br>
 `sudo apt install python-pocketsphinx` </br>
@@ -117,12 +132,19 @@ Arch:</br>
 `sudo pacman -S python2-pyqt4`</br>
 `sudo pacman -S python-pyqt4`</br>
 
+Deepspeech Requirments:</br>
+
+`pip3 install deepspeech`</br>
+
+
+
 ## Run:
 
 To run, you can enter the JELVIS path and execute the following commands in voice mode
 
 
 `python script.py` : for Graphic mode and voice mode of input
+`python script.py deepspeech` : for deepspeech open source Speech-To-Text engine
 
 Voice mode may give a series of warnings for numerous reasons, but still might fuction properly.
 
@@ -137,4 +159,5 @@ for create icon JELVIS in desktop and your applications, you must copy jelvis.de
 to exit JELVIS in DesktopShortcut without terminal output , you must first close the graphic windows and next tell jelvis goodbye
 
 And finally I thank Nihal Singh for the original code
-
+<br>
+And thanks kia hamedi for jelvis
