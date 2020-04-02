@@ -40,7 +40,7 @@ if len(sys.argv) > 1:
             print("\nInstall SpeechRecognition to use this feature.\nStarting text mode\n")
 terminate = ['bye','buy','shutdown','exit','quit','gotosleep','goodbye']
 
-
+# get argument for choose google stt or deepspeech stt
 def get_arguments():
     parser = argparse.ArgumentParser()
     optional = parser.add_argument_group('params')
@@ -99,13 +99,13 @@ class Thread(QtCore.QThread):
             engine = pyttsx3.init()
             engine.say(jarvis_speech)
             engine.runAndWait()
-
+        # now you can choose google stt or deepspeech stt
         def listen():
             if stt == "deepspeech":
                 deeplisten()
             else:
                 glisten()
-        
+        #google stt function
         def glisten():
             r = sr.Recognizer()
             with sr.Microphone() as source:
@@ -128,7 +128,8 @@ class Thread(QtCore.QThread):
                 print("Could not request results from speech service; {0}".format(e))
             #except sr.UnknownValueError:
             #    return(glisten())
-
+        
+        #deepspeech stt function
         def deeplisten():
             #deepspeech added instead google to Recognize sound
             ds = Model(model_name, beam_width)
