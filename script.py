@@ -1,4 +1,4 @@
-giimport sys
+import sys
 import aiml
 import os
 import time, sys
