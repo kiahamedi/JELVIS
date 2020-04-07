@@ -1,3 +1,4 @@
+giimport sys
 import aiml
 import os
 import time, sys
@@ -168,7 +169,12 @@ class Thread(QtCore.QThread):
             if mode == "voice":
             #add deepspeech argument
                 if stt == "deepspeech":
-                    response = deeplisten()
+                    if (sys.version_info > (3, 0)):
+                        # Python 3 code in this block
+                        response = deeplisten()   
+                    else:
+                        # Python 2 code in this block
+                        print("you need python 3 to use deepspeech")
                 else:
                     response = glisten()
             else:
@@ -176,7 +182,14 @@ class Thread(QtCore.QThread):
             if response.lower().replace(" ","") in terminate:
                 #break
                 if stt == "deepspeech":
-                    response = deeplisten()
+                    if (sys.version_info > (3, 0)):
+                        # Python 3 code in this block
+                        response = deeplisten()   
+                    else:
+                        # Python 2 code in this block
+                        print("you need python 3 to use deepspeech")
+
+                    
                 else:
                     response = glisten()    
             jarvis_speech = kernel.respond(response)
