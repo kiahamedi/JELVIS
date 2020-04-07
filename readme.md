@@ -96,7 +96,7 @@ To do this, you can open the file and add your own conversations and send us
 
 ```
 # Clone this repository
-git clone https://github.com/herotux/JELVIS.git
+
 
 # cd the project directory 
 cd JELVIS
