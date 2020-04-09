@@ -1,0 +1,7 @@
+#this files are binnary files of deepspeech you need download and insert theme in this directory for more info read the readme file
+
+lm.binary
+output_graph.pb
+output_graph.pbmm
+output_graph.tflite
+trie
