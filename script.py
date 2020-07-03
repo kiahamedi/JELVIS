@@ -8,10 +8,12 @@ import warnings
 import threading
 import pocketsphinx
 from os import system
-from PyQt4 import QtCore,QtGui
 import speech_recognition as sr
-from PyQt4.QtCore import QSize
-from PyQt4.QtGui import QApplication, QLabel, QMovie, QPainter, QFontMetrics 
+#from PyQt4.QtGui import QApplication, QLabel, QMovie
+from PyQt5 import QtCore,QtGui
+from PyQt5.QtGui import QMovie
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtWidgets import QLabel
 import urllib3
 
 
@@ -44,7 +46,7 @@ class QTextMovieLabel(QLabel):
         self._movieHeight = s.height()
 
 
- 
+
 class Thread(QtCore.QThread):
     def __init__(self, parent):
         QtCore.QThread.__init__(self, parent)
@@ -59,7 +61,7 @@ class Thread(QtCore.QThread):
             try:
                 urllib2.urlopen('http://216.58.192.142', timeout=1)
                 return True
-            except urllib2.URLError as err: 
+            except urllib2.URLError as err:
                 return False
 
 
@@ -115,7 +117,7 @@ class Thread(QtCore.QThread):
                 response = raw_input("Talk to JELVIS : ")
             if response.lower().replace(" ","") in terminate:
                 #break
-                response = listen()    
+                response = listen()
             jarvis_speech = kernel.respond(response)
             print ("JELVIS: " + jarvis_speech)
             offline_speak(jarvis_speech)
@@ -134,7 +136,7 @@ class Thread(QtCore.QThread):
 
 if __name__ == '__main__':
     import sys
-    app = QtGui.QApplication(sys.argv)
+    app = QApplication(sys.argv)
     l = QTextMovieLabel('jelvis.gif')
     l.setWindowTitle("JELVIS")
     l.show()
