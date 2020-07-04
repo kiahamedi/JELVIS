@@ -1,22 +1,18 @@
 #!/usr/bin/env python3
-
-import aiml
 import os
-import time, sys
-#from gtts import gTTS
-#from pygame import mixer
+import sys
+import time
+import aiml
 import pyttsx3
+import urllib3
 import warnings
 import threading
 import pocketsphinx
 from os import system
 import speech_recognition as sr
-#from PyQt4.QtGui import QApplication, QLabel, QMovie
 from PyQt5 import QtCore,QtGui
-from PyQt5.QtGui import QMovie
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtWidgets import QLabel
-import urllib3
+from PyQt5.QtGui import QMovie , QIcon
+from PyQt5.QtWidgets import QApplication, QLabel, QSystemTrayIcon, QMenu , QMessageBox
 
 
 mode = "voice"
@@ -137,9 +133,41 @@ class Thread(QtCore.QThread):
 
 
 if __name__ == '__main__':
-    import sys
+
     app = QApplication(sys.argv)
-    l = QTextMovieLabel('jelvis.gif')
+
+    # Body with show jelvis
+    l = QTextMovieLabel('icons/jelvis.gif')
     l.setWindowTitle("JELVIS")
     l.show()
+
+
+    # Tray icon and menu
+    trayIcon = QSystemTrayIcon(QIcon('icons/jelvis_try.png'), parent=app)
+    trayIcon.setToolTip('JELVIS 1.0.2')
+    trayIcon.show()
+    menu = QMenu()
+
+    # Show Jelvis window
+    showAction = menu.addAction('Show JELVIS')
+    showAction.triggered.connect(l.show)
+
+    # Hide Jelvis Window
+    showAction = menu.addAction('Hide JELVIS')
+    showAction.triggered.connect(l.hide)
+
+    # QMessageBox Info
+    msg = QMessageBox()
+    msg.setWindowTitle("Info")
+    msg.setText("\nJELVIS v1.0.2\n\nThis project can be an audio assistant on your operating system and perform the tasks that you are considering for it. You can use different scripts to use in the language interface\n\nhttps://github.com/kiahamedi/JELVIS\nkia.arta9793@gmail.com\n")
+    moreAction = menu.addAction('More info')
+    moreAction.triggered.connect(msg.show)
+
+    # Exit Tray icon
+    exitAction = menu.addAction('Exit')
+    exitAction.triggered.connect(app.quit)
+
+    trayIcon.setContextMenu(menu)
+
+
     sys.exit(app.exec_())
