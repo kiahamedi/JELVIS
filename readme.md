@@ -108,14 +108,14 @@ Arch:</br>
 `sudo pacman -S espeak` </br>
 
 
-for Graphic install PyQT4:
+for Graphic install PyQT5:
 
 Debian Base:</br>
-`sudo apt install python-qt4`</br>
+`sudo apt install python-qt5`</br>
 </br>
 Arch:</br>
-`sudo pacman -S python2-pyqt4`</br>
-`sudo pacman -S python-pyqt4`</br>
+`sudo pacman -S python2-pyqt5`</br>
+`sudo pacman -S python-pyqt5`</br>
 
 ## Run:
 
