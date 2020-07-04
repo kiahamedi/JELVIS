@@ -5,6 +5,9 @@
 
 ![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "Optional title")
 
+## Run
+![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/screenshot.png "Optional title")
+
 [See on youtube](https://www.youtube.com/watch?v=33k3GG6Gszo)
 
 This project can be an audio assistant on your operating system and perform the tasks that you are considering for it.
