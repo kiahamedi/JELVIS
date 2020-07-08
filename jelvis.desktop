@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=JELVIS
-Exec=bash /home/kia/JELVIS/runJ.sh
+Exec=bash /home/kia/JELVIS/jelvis
 Icon=/home/kia/JELVIS/icons/jelvis.png
 MimeType=x-scheme-handler/tg;
 Name=JELVIS
