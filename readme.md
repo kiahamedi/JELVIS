@@ -142,7 +142,7 @@ for create icon JELVIS in desktop and your applications, you must copy jelvis.de
 To run, you can enter the JELVIS path and execute the following commands in voice mode
 for Graphic mode and voice mode of input:
 `chmod +x jelvis`</br>
-`.jelvis`</br>
+`./jelvis`</br>
 
 Voice mode may give a series of warnings for numerous reasons, but still might fuction properly.
 
