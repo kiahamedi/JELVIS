@@ -104,9 +104,9 @@ DebianBase or RpmBase: use Manual Installation (for any linux)</br>
 ## Run:
 To run, you can enter the JELVIS path and execute the following commands in voice mode
 for Graphic mode and voice mode of input:
-`jelvis -v`</br>
-`jelvis -h`</br>
-`jelvis or use jelvis.dekstop`</br>
+`jelvis-assistant -v`</br>
+`jelvis-assistant -h`</br>
+`jelvis-assistant or use jelvis.dekstop`</br>
 
 ## Uninstall
 > Arch Linux: `sudo pacman -R zirnevis`</br>
@@ -141,8 +141,8 @@ for create icon JELVIS in desktop and your applications, you must copy jelvis.de
 ## Run:
 To run, you can enter the JELVIS path and execute the following commands in voice mode
 for Graphic mode and voice mode of input:
-`chmod +x jelvis`</br>
-`./jelvis`</br>
+`chmod +x jelvis-assistant`</br>
+`./jelvis-assistant`</br>
 
 Voice mode may give a series of warnings for numerous reasons, but still might fuction properly.
 
