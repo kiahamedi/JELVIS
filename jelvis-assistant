@@ -1,0 +1,55 @@
+#!/bin/bash
+
+if [ "$1" = "--help" ] || [ "$1" = "-h" ] ; then
+  echo "JELVIS"
+  echo "Version 1.0.2"
+  echo "This project can be an audio assistant on your operating system and perform the tasks that you are considering for it. You can use different scripts to use in the language interface"
+  echo "  "
+  echo "Source: https://github.com/kiahamedi/JELVIS"
+  echo "Developer: Kia Hamedi"
+  echo "Email: kia.arta9793@gmail.com"
+  echo "Website: kiahamedi.ir"
+  echo "  "
+  echo "Converses:"
+  echo "		Talk to JELVIS : hello"
+  echo "		JELVIS : Well, hello"
+  echo "  "
+  echo "		Talk to JELVIS : baby?"
+  echo "		JELVIS : Sir."
+  echo "  "
+  echo "		Talk to JELVIS : play music"
+  echo "		JELVIS : On it!"
+  echo "  "
+  echo "		Talk to JELVIS : Next Track"
+  echo "		JELVIS : Right away, sir!"
+  echo "  "
+  echo "		Talk to JELVIS : what time is it?"
+  echo "		JELVIS : The time is 4 43 am"
+  echo "  "
+  echo "		Talk to JELVIS : What is it, PyQT5?"
+  echo "		JELVIS : Do you want me to google that for you?"
+  echo "		Talk to JELVIS : yes"
+  echo "		JELVIS : Right away, sir! Created new window in existing browser session."
+  echo "  "
+  echo "		Talk to JELVIS : Talk to JELVIS : increase valume to *%"
+  echo "		JELVIS : Right away, sir!"
+  echo "  "
+  echo "		Talk to JELVIS : take me to /etc"
+  echo "		JELVIS : Sure thing! (Opens /etc in nautilus)"
+  echo "  "
+  echo "		Talk to JELVIS : take me home"
+  echo "		JELVIS: Sure thing! (Opens ~ in nautilus)"
+  echo "  "
+  echo "		Talk to JELVIS : go to sleep / exit / quit / bye / goodbye"
+  echo "		JELVIS: goodbye sir."
+  exit 0
+fi
+
+if [ "$1" = "--version" ] || [ "$1" = "-v" ] ; then
+  echo "JELVIS"
+  echo "Version 1.0.2"
+  exit 0
+fi
+
+cd /home/$USER/JELVIS
+python jelvis

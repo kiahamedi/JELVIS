@@ -1,10 +1,12 @@
 [Desktop Entry]
-Comment=JELVIS
-Exec=bash /home/kia/JELVIS/jelvis
-Icon=/home/kia/JELVIS/icons/jelvis.png
-MimeType=x-scheme-handler/tg;
+Version=1.0.0
 Name=JELVIS
+Comment=Smart voice assistants like Alexa, Siri and Google assistants
+Exec=/home/kia/JELVIS/jelvis-assistant
+Icon=/home/kia/JELVIS/icons/jelvis.png
+Encoding=UTF-8
 StartupWMClass=JELVIS
 Terminal=false
+StartupNotify=true
 Type=Application
-Version=1.0
+Categories=Internet;Network;Application;
