@@ -94,9 +94,25 @@ To do this, you can open the file and add your own conversations and send us
     **Talk to JELVIS :** go to sleep / exit / quit / bye / goodbye
 
     closes the python script.
+    
+    
+## Installation
+Arch Linux: `pacaur -S jelvis`</br>
+</br>
+DebianBase or RpmBase: use Manual Installation (for any linux)</br>
 
-## Requirements:
+## Run:
+To run, you can enter the JELVIS path and execute the following commands in voice mode
+for Graphic mode and voice mode of input:
+`jelvis -v`</br>
+`jelvis -h`</br>
+`jelvis or use jelvis.dekstop`</br>
 
+## Uninstall
+> Arch Linux: `sudo pacman -R zirnevis`</br>
+
+
+## Manual Installation (for any linux):
 You can run `pip install --upgrade -r requirements.txt` to install them all.</br>
 Debian Base:</br>
 `sudo apt install python-alsaaudio` </br>
@@ -110,7 +126,6 @@ Arch:</br>
 `sudo pacman -S python-alsaaudio` </br>
 `sudo pacman -S espeak` </br>
 
-
 for Graphic install PyQT5:
 
 Debian Base:</br>
@@ -120,22 +135,22 @@ Arch:</br>
 `sudo pacman -S python2-pyqt5`</br>
 `sudo pacman -S python-pyqt5`</br>
 
+## DesktopShortcut:
+for create icon JELVIS in desktop and your applications, you must copy jelvis.desktop in this path: /home/kia/.local/share/applications
+
 ## Run:
-
 To run, you can enter the JELVIS path and execute the following commands in voice mode
-
-
-`python script.py` : for Graphic mode and voice mode of input
+for Graphic mode and voice mode of input:
+`chmod +x jelvis`</br>
+`.jelvis`</br>
 
 Voice mode may give a series of warnings for numerous reasons, but still might fuction properly.
 
-## Exit:
 
+## Exit:
 To exit and close the program, you must first close the graphic window and then stop the terminal output with Ctrl + Z control keys.
 
-## DesktopShortcut:
 
-for create icon JELVIS in desktop and your applications, you must copy jelvis.desktop in this path: /home/kia/.local/share/applications
 
 to exit JELVIS in DesktopShortcut without terminal output , you must first close the graphic windows and next tell jelvis goodbye
 
