@@ -3,10 +3,10 @@
 
 ##### This project currently uses Python version 2.7 or 3.6
 
-![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/wallpapers/jelviis.png "Optional title")
+![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/screenshot.png "Optional title")
 
 ## Run
-![Alt text](https://raw.githubusercontent.com/kiahamedi/JELVIS/master/screenshot.png "Optional title")
+![Alt text](https://github.com/kiahamedi/JELVIS/blob/master/jelvisscreen.gif "Optional title")
 
 [See on youtube](https://www.youtube.com/watch?v=33k3GG6Gszo)
 
