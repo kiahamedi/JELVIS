@@ -2,7 +2,7 @@ aiml==0.9.2
 backports.functools-lru-cache==1.5
 beautifulsoup4==4.7.1
 bs4==0.0.1
-certifi==2023.7.22
+certifi==2024.7.4
 chardet==3.0.4
 Click==7.0
 gTTS==2.0.3
