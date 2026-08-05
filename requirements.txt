@@ -11,7 +11,7 @@ idna==3.7
 pyttsx3==2.7
 requests==2.32.4
 six==1.12.0
-soupsieve==1.9.1
+soupsieve==2.8.4
 SpeechRecognition==3.8.1
 urllib3==2.6.3
 pyalsaaudio==0.8.4
